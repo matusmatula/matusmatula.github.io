@@ -10,8 +10,8 @@ layout: default
 <div>{{ page.sections['email'] | textilize }}</div>
 
 <h2>{{ page.education }}</h2>
-<div class="row">
-  <div class="col-md-6">{{ page.sections['roky'] | textilize }}</div>
-  <div class="col-md-6">{{ page.sections['skoly'] | textilize }}</div>
+<div class="columns spacing">
+  <div class="column half">{{ page.sections['roky'] | textilize }}</div>
+  <div class="column half">{{ page.sections['skoly'] | textilize }}</div>
 </div>
 
