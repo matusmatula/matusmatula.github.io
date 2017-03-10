@@ -4,11 +4,10 @@ layout: default
 <h1>{{ page.title }}</h1>
 
 <h2>{{ page.subtitle }}</h2>
+<img style="float: center" src="{{page.photo}}">
 <div>{{ page.sections['name'] | textilize }}</div>
 <div>{{ page.sections['birthday'] | textilize }}</div>
 <div>{{ page.sections['email'] | textilize }}</div>
-
-<img style="float: right" src="{{page.photo}}">
 
 <h2>{{ page.education }}</h2>
 <div class="row">
