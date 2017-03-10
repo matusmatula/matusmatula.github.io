@@ -11,7 +11,9 @@ layout: default
 
 <h2>{{ page.education }}</h2>
 <div class="columns spacing">
-  <div class="column half">{{ page.sections.skoly['roky'] | textilize }}</div>
-  <div class="column half">{{ page.sections.skoly['nazvy'] | textilize }}</div>
+  {% for skola in page.sections.skoly %}
+    <div class="column half">{{ skola['roky'] | textilize }}</div>
+    <div class="column half">{{ skola['nazov'] | textilize }}</div>
+  {% endfor %}
 </div>
 
