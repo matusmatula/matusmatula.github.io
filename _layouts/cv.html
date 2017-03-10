@@ -11,4 +11,8 @@ layout: default
 {{ page.foto }}
 
 <h2>{{ page.education }}</h2>
-<div>{{ page.sections['roky'] | textilize }}     {{ page.sections['skoly'] | textilize }}</div>
+<div class="row">
+  <div class="col-md-6">{{ page.sections['roky'] | textilize }}</div>
+  <div class="col-md-6">{{ page.sections['skoly'] | textilize }}</div>
+</div>
+
