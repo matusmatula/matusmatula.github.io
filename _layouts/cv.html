@@ -25,6 +25,7 @@ layout: default
 <div>
   {% for skl in page.sections.skill %}
     <div>{{ skl | textilize }}</div>
+    <p></p>
   {% endfor %}
 </div>
   
@@ -33,6 +34,7 @@ layout: default
   <div>
     {% for experience in page.sections.experiences %}
       <div>{{ experience | textilize }}</div>
+      <p></p>
     {% endfor %}
    </div>
 {% endif %}
