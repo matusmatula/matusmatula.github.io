@@ -10,10 +10,9 @@ layout: default
 <div>{{ page.sections['email'] | textilize }}</div>
 
 <h2>{{ page.education }}</h2>
-<div class="columns spacing">
+<div>
   {% for skola in page.sections.skoly %}
-    <div class="column half">{{ skola['roky'] | textilize }}</div>
-    <div class="column half">{{ skola['nazov'] | textilize }}</div>
+    {{ skola['roky'] | textilize }}: {{ skola['nazov'] | textilize }}
   {% endfor %}
 </div>
 
