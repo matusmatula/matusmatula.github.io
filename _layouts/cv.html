@@ -14,7 +14,8 @@ layout: default
   {% for skola in page.sections.skoly %}
     <div>{{ skola['roky'] | textilize }}: {{ skola['nazov'] | textilize }}</div>
   {% endfor %}
-  
+</div> 
+
 <h2>{{ page.skills }}</h2>
 <div>
   {% for skl in page.sections.skill %}
@@ -22,12 +23,11 @@ layout: default
   {% endfor %}
 </div>
   
-<div>
 {% if page.sections.experiences != nil %}
   <h2>{{ page.skills }}</h2>
   <div>
     {% for experience in page.sections.experiences %}
       <div>{{ experience | textilize }}</div>
     {% endfor %}
+   </div>
 {% endif %}
-</div>
