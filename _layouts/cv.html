@@ -14,5 +14,11 @@ layout: default
   {% for skola in page.sections.skoly %}
     <div>{{ skola['roky'] | textilize }}: {{ skola['nazov'] | textilize }}</div>
   {% endfor %}
+  
+<h2>{{ page.skills }}</h2>
+<div>
+  {% for skl in page.sections.skill %}
+    <div>{{ skl | textilize }}</div>
+  {% endfor %}
 </div>
 
