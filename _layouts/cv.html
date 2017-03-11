@@ -12,7 +12,11 @@ layout: default
 <h2>{{ page.education }}</h2>
 <div>
   {% for skola in page.sections.skoly %}
-    <div>{{ skola['roky'] | textilize }}: {{ skola['nazov'] | textilize }}</div>
+    <div>{{ skola['nazov'] | textilize }}</div>
+    {% if skola.odbor != nil %}
+      <div>{{ skola['odbor'] | textilize }}</div>
+    {% endif %}
+    <div>{{ skola['roky'] | textilize }}</div>
   {% endfor %}
 </div> 
 
