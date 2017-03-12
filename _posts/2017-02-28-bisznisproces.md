@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: "Biznis proces"
 date: 2017-02-28
