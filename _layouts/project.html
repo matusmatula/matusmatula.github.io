@@ -9,6 +9,6 @@ layout: default
 
 <ul>
   {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string | where: "project", page.title }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title | where: "project", page.title }}</a></li>
+    <li><span>{{ post.date | date_to_string | where: post.project, page.title }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title | where: post.project, page.title }}</a></li>
   {% endfor %}
 </ul>
