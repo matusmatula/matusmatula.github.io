@@ -6,4 +6,4 @@ photo: /images/BP.png
 project: "Princípy informačných systémov: Kontrola zadaných objednávok a výpis účtu poistenca o poskytnutí zdravotnej starostlivosti"
 ---
 
-Prvá verzia navrhovaného biznis procesu :happy: :D :laugh:
+Prvá verzia navrhovaného biznis procesu :happy: :D :laugh: {{jemoji.laugh}}
