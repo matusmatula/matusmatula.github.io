@@ -8,5 +8,5 @@ layout: default
 </div>
 
 {% for post in posts %}
-   <li><span>{{ post.date | date_to_string | where: "project", page.title }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title | where: "project", page.title }}</a></li>
+   <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title | where: "project", page.title }}</a></li>
 {% endfor %}
