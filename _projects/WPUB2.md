@@ -10,5 +10,5 @@ Na vytvorenie tabulky som použil element <i>table</i> spolu s elementami <i>tgo
 obsahujúci názvy stĺpcov, <i>tbody</i> obsahujúci hodnoty a elementy <i>row</i> a <i>entry</i> pre konkrétne hodnoty. 
 Na vytvoreni zoznamu obrázkov som využil element <i>figure</i> s atribútmy <i>id</i> obsahujúci názov 
 obrázka a <i>xreflabel</i> obsahujúci text pod ktorým sa referencia zobrazí v texte. 
-Samotné obrázy sa nachádzajú v elemente <i>imagedata</i> zabalného v elemente <i>imageobject</i>
-Pridané templaty <i>linebreak</i> a <i>emptyline</i> vykonávajúce dané funkcie</p>
+Samotné obrázy sa nachádzajú v elemente <i>imagedata</i> zabalného v elemente <i>imageobject</i>.
+Pridané templaty <i>linebreak</i> a <i>emptyline</i> vykonávajúce dané funkcie.</p>
